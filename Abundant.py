@@ -1,4 +1,4 @@
-n = 12  # Change this value to test other numbers
+n = 12  
 divisors_sum = sum([i for i in range(1, n) if n % i == 0])
 
 is_abundant = divisors_sum > n
